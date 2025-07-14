@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/qt/qml/CrossPlatform">
+    <file alias="qmldir">/home/nacibaran/par3D/build/Qt_6_5_3_GCC_64bit-Debug/CrossPlatform/qmldir</file>
+  </qresource>
+</RCC>
+

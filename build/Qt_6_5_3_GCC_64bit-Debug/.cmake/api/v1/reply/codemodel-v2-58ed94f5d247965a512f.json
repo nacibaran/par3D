@@ -1,0 +1,178 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-4a1e811d276ce0fcbc8d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "par3D",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint-Debug-c06649396dfafd73bd6c.json",
+					"name" : "all_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_json-Debug-2c2fc17bb00019065507.json",
+					"name" : "all_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_module-Debug-fbe4d68b186205ef2159.json",
+					"name" : "all_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmltyperegistrations::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmltyperegistrations-Debug-3d46d10dcded2a5dbfe2.json",
+					"name" : "all_qmltyperegistrations",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "apppar3D::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-apppar3D-Debug-b02b8806bf98895c95eb.json",
+					"name" : "apppar3D",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "apppar3D_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-apppar3D_autogen-Debug-56f1d6bb0272485f25b4.json",
+					"name" : "apppar3D_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "apppar3D_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-apppar3D_autogen_timestamp_deps-Debug-33c78af11df7c3dbb043.json",
+					"name" : "apppar3D_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "apppar3D_automoc_json_extraction::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-apppar3D_automoc_json_extraction-Debug-ca703e184d10751ea9b2.json",
+					"name" : "apppar3D_automoc_json_extraction",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "apppar3D_qmlimportscan::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-apppar3D_qmlimportscan-Debug-3631ce91fac57122e4f9.json",
+					"name" : "apppar3D_qmlimportscan",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "apppar3D_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-apppar3D_qmllint-Debug-f17c1b2267acee97c2cf.json",
+					"name" : "apppar3D_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "apppar3D_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-apppar3D_qmllint_json-Debug-49896f2c26e41ee25809.json",
+					"name" : "apppar3D_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "apppar3D_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-apppar3D_qmllint_module-Debug-2e511f8710fee42cc6b9.json",
+					"name" : "apppar3D_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "apppar3D_qmltyperegistration::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-apppar3D_qmltyperegistration-Debug-d747950eb423cce6aac5.json",
+					"name" : "apppar3D_qmltyperegistration",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "apppar3D_tooling::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-apppar3D_tooling-Debug-975bdc59a6281fba773f.json",
+					"name" : "apppar3D_tooling",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/nacibaran/par3D/build/Qt_6_5_3_GCC_64bit-Debug",
+		"source" : "/home/nacibaran/par3D"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

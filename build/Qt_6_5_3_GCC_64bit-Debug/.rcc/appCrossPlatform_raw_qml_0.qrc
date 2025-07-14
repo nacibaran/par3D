@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/qt/qml/CrossPlatform/">
+    <file alias="ui/Main.qml">/home/nacibaran/par3D/ui/Main.qml</file>
+  </qresource>
+</RCC>
+

@@ -1,0 +1,100 @@
+[
+    {
+        "classes": [
+            {
+                "className": "SerialReceiver",
+                "methods": [
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "portName",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "baudRate",
+                                "type": "int"
+                            }
+                        ],
+                        "name": "start",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "portName",
+                                "type": "QString"
+                            }
+                        ],
+                        "isCloned": true,
+                        "name": "start",
+                        "returnType": "void"
+                    }
+                ],
+                "object": true,
+                "qualifiedClassName": "SerialReceiver",
+                "signals": [
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "deg1",
+                                "type": "int"
+                            },
+                            {
+                                "name": "deg2",
+                                "type": "int"
+                            },
+                            {
+                                "name": "length",
+                                "type": "int"
+                            },
+                            {
+                                "name": "imuX",
+                                "type": "int"
+                            },
+                            {
+                                "name": "imuY",
+                                "type": "int"
+                            }
+                        ],
+                        "name": "dataReceived",
+                        "returnType": "void"
+                    }
+                ],
+                "slots": [
+                    {
+                        "access": "private",
+                        "name": "handleReadyRead",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "private",
+                        "name": "attemptReconnect",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "private",
+                        "arguments": [
+                            {
+                                "name": "error",
+                                "type": "QSerialPort::SerialPortError"
+                            }
+                        ],
+                        "name": "handleError",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "serialreceiver.h",
+        "outputRevision": 68
+    }
+]

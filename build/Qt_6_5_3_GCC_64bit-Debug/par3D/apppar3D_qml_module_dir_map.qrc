@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/">
+    <file alias="/qt/qml/par3D">/home/nacibaran/par3D/build/Qt_6_5_3_GCC_64bit-Debug/par3D</file>
+
+  </qresource>
+</RCC>

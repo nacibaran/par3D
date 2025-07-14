@@ -1,0 +1,7 @@
+<RCC>
+  <qresource prefix="/">
+    <file alias="resources/models/acrob_govde.obj">/home/nacibaran/par3D/resources/models/acrob_govde.obj</file>
+    <file alias="resources/models/acrob_pal.obj">/home/nacibaran/par3D/resources/models/acrob_pal.obj</file>
+  </qresource>
+</RCC>
+

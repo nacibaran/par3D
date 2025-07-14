@@ -1,0 +1,6 @@
+module par3D
+typeinfo apppar3D.qmltypes
+prefer :/qt/qml/par3D/
+Main 1.0 Main.qml
+Base3DView 1.0 Base3DView.qml
+

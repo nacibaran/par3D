@@ -1,0 +1,8 @@
+<RCC>
+  <qresource prefix="/qt/qml/par3D/">
+    <file alias="Main.qml">/home/nacibaran/par3D/Main.qml</file>
+    <file alias="Base3DView.qml">/home/nacibaran/par3D/Base3DView.qml</file>
+    <file alias="par3DView.qml">/home/nacibaran/par3D/par3DView.qml</file>
+  </qresource>
+</RCC>
+

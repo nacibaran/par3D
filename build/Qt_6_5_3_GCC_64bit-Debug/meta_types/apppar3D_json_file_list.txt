@@ -1,0 +1,1 @@
+/home/nacibaran/par3D/build/Qt_6_5_3_GCC_64bit-Debug/apppar3D_autogen/include/../EWIEGA46WW/moc_serialreceiver.cpp.json

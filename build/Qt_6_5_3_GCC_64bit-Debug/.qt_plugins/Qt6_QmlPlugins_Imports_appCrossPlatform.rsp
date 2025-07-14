@@ -1,0 +1,15 @@
+-rootPath
+/home/nacibaran/par3D
+-cmake-output
+-output-file
+/home/nacibaran/par3D/build/Qt_6_5_3_GCC_64bit-Debug/.qt_plugins/Qt6_QmlPlugins_Imports_appCrossPlatform.cmake
+-importPath
+/home/nacibaran/par3D/build/Qt_6_5_3_GCC_64bit-Debug/CrossPlatform
+-importPath
+/home/nacibaran/par3D/build/Qt_6_5_3_GCC_64bit-Debug
+-importPath
+/home/nacibaran/Qt/6.5.3/gcc_64/./qml
+-qrcFiles
+/home/nacibaran/par3D/build/Qt_6_5_3_GCC_64bit-Debug/.rcc/qmake_CrossPlatform.qrc
+/home/nacibaran/par3D/build/Qt_6_5_3_GCC_64bit-Debug/.rcc/appCrossPlatform_raw_qml_0.qrc
+/home/nacibaran/par3D/build/Qt_6_5_3_GCC_64bit-Debug/.rcc/resources.qrc

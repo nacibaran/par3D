@@ -1,0 +1,5 @@
+module CrossPlatform
+typeinfo appCrossPlatform.qmltypes
+prefer :/qt/qml/CrossPlatform/
+Main 1.0 ui/Main.qml
+
