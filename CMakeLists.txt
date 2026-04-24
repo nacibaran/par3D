@@ -1,5 +1,6 @@
 cmake_minimum_required(VERSION 3.16)
-project(par3D VERSION 0.1 LANGUAGES CXX)
+set(APP_NAME Hancer_Seri_Üretim_APP)
+project(${APP_NAME} VERSION 0.1 LANGUAGES CXX)
 
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
@@ -17,22 +18,57 @@ qt_add_qml_module(apppar3D
     QML_FILES
         Main.qml
         Base3DView.qml
-        par3DView.qml
+        Hancer3DView.qml
+        LeftToolbar.qml
+        LeftToolbarButton.qml
+        MenuView.qml
+        VehiclePage.qml
+        AudioPage.qml
 
     SOURCES
-        serialreceiver.h serialreceiver.cpp
+        vcucommunication.h vcucommunication.cpp
+        thememanager.h thememanager.cpp
+
 )
 
-# Resource klasöründeki tüm model dosyalarını listele
-file(GLOB_RECURSE MODEL_FILES
-    "${CMAKE_CURRENT_SOURCE_DIR}/resource/*.obj"
+# Model dosyaları
+file(GLOB_RECURSE MODEL_FILES_OBJ
+    "${CMAKE_CURRENT_SOURCE_DIR}/resource/models//*.obj"
 )
 
-# Qt Resource sistemi ile model dosyalarını ekle
-qt_add_resources(apppar3D "models"
+# MTL dosyaları
+file(GLOB_RECURSE MODEL_FILES_MTL
+    "${CMAKE_CURRENT_SOURCE_DIR}/resource/models//*.mtl"
+)
+
+
+# PNG ikon dosyaları
+file(GLOB_RECURSE ICON_FILES
+    "${CMAKE_CURRENT_SOURCE_DIR}/resource/icons/*.png"
+)
+
+# GLB ikon dosyaları
+file(GLOB_RECURSE GLB_MODEL_FILES
+    "${CMAKE_CURRENT_SOURCE_DIR}/resource/models/*.glb"
+)
+# GLB ikon dosyaları
+file(GLOB_RECURSE CONFIG
+    "${CMAKE_CURRENT_SOURCE_DIR}/config/*.json"
+)
+
+
+
+
+# Resource ekleme
+qt_add_resources(apppar3D "resources"
     PREFIX "/"
     BASE "${CMAKE_CURRENT_SOURCE_DIR}"
-    FILES ${MODEL_FILES}
+    FILES
+        ${MODEL_FILES_OBJ}
+        ${MODEL_FILES_MTL}
+        ${ICON_FILES}
+        ${GLB_MODEL_FILES}
+        ${CONFIG}
 )
 
 # Properties
@@ -49,7 +85,6 @@ target_link_libraries(apppar3D
     Qt6::Quick
     Qt6::Quick3D
     Qt6::Core
-    Qt6::SerialPort
 )
 
 # Kurulum

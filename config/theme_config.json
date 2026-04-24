@@ -1,0 +1,44 @@
+{
+    "theme": "dark",
+    "themes": {
+        "light": {
+            "dividerColor": "#cccccc",
+            "backgroundColor": "#d9d9d9",
+            "textColor": "#000000",
+            "borderColor": "#221456",
+            "transparent": "#443125",
+            "lightGrayColor":"#414143",
+            "orangeColor":"#444444",
+            "whiteColor":"#000000   ",
+            "blackColor":"#FFFFFF",
+            "greenColor":"#FF1234",
+            "redColor":"#F40010"
+        },
+        "dark": {
+            "dividerColor": "#444444",
+            "backgroundColor": "#414143",
+            "textColor": "#EEEEEE",
+            "borderColor": "#E98C0E",
+            "transparent": "#E98C0E",
+            "lightGrayColor":"#D9D9D9",
+            "orangeColor":"#FFA800",
+            "whiteColor":"#FFFFFF",
+            "blackColor":"#000000",
+            "greenColor":"#008000",
+            "redColor":"#FF0000"
+        },
+        "normal": {
+            "dividerColor": "#555555",
+            "backgroundColor": "#d9d9d9",
+            "textColor": "#000000",
+            "borderColor": "#E98C0E",
+            "transparent": "#E98C0E",
+            "lightGrayColor":"#D9D9D9",
+            "orangeColor":"#FFA800",
+            "whiteColor":"#FFFFFF",
+            "blackColor":"#000000",
+            "greenColor":"#008000",
+            "redColor":"#FF0000"
+        }
+    }
+}
